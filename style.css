@@ -21,9 +21,9 @@ ul {
 :root {
   --header-height: 4.5rem;
 
-  --hue: 159;
-  --base-color: hsl(var(--hue) 36% 57%);
-  --base-color-second: hsl(var(--hue) 65% 88%);
+  --hue: 175;
+  --base-color: hsl(var(--hue) 80% 35%);
+  --base-color-second: hsl(var(--hue) 75% 65%);
   --base-color-alt: hsl(var(--hue) 57% 53%);
   --title-color: hsl(var(--hue) 41% 10%);
   --text-color: hsl(0 0% 46%);
@@ -526,7 +526,7 @@ footer .social a:hover {
 /* Responsivo */
 /*----------------- MEDIA QUERIES -----------------*/
 /* extra large devives: 1200 > */
-@media (min-width: 1200px) {
+@media (min-width: 1130px) {
   /* reusable classes */
   .container {
     max-width: 1120px;
@@ -647,10 +647,9 @@ footer .social a:hover {
 }
 
 /* large devices: 1023 > */
-@media (min-width: 1023px) {
-}
 
 /* large devices: 992 > */
+
 @media (min-width: 992px) {
   :root {
     --title-font-size: 2.25rem;
@@ -660,4 +659,7 @@ footer .social a:hover {
 
 /* medium devices: 767 > */
 @media (min-width: 767px) {
-}
+  :root {
+    --title-font-size: 2.5rem;
+    --subtitle-font-size: 1.325rem;
+  }
